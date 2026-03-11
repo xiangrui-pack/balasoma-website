@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balasoma - Premium Beauty Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">BALASOMA</a>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="home">Home</a></li>
+                <li><a href="#products" data-i18n="products">Products</a></li>
+                <li><a href="#about" data-i18n="about">About</a></li>
+                <li><a href="#contact" data-i18n="contact">Contact</a></li>
+                <li class="lang-switch">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">Redefine Your Beauty</h1>
+            <p data-i18n="hero_subtitle">Premium skincare and cosmetics crafted for the modern you</p>
+            <a href="#products" class="cta-button" data-i18n="shop_now">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title" data-i18n="featured_products">Featured Products</h2>
+            <p class="section-subtitle" data-i18n="products_desc">Discover our carefully curated collection</p>
+            
+            <div class="product-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 800px; margin: 0 auto;">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.png" alt="Product 1">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="product1_name">Radiance Serum</h3>
+                        <p class="product-desc" data-i18n="product1_desc">Brightening essence for luminous skin</p>
+                        <span class="price">$89.00</span>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.png" alt="Product 2">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="product2_name">Hydra Cream</h3>
+                        <p class="product-desc" data-i18n="product2_desc">Deep hydration for all-day moisture</p>
+                        <span class="price">$75.00</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title" data-i18n="about_title">About Balasoma</h2>
+                <p data-i18n="about_text1">Balasoma is a premium beauty brand dedicated to creating high-quality skincare and cosmetics that enhance your natural beauty. Our products are crafted with the finest ingredients and backed by scientific research.</p>
+                <p data-i18n="about_text2">We believe that beauty should be accessible, effective, and enjoyable. Every Balasoma product is designed to deliver visible results while providing a luxurious experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3 data-i18n="phone">Phone</h3>
+                    <p>+1 (392) 652-2491</p>
+                </div>
+                <div class="contact-item">
+                    <h3 data-i18n="email">Email</h3>
+                    <p>contact@balasoma.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3 data-i18n="location">Location</h3>
+                    <p data-i18n="location_text">United States</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>BALASOMA</h3>
+                    <p data-i18n="footer_tagline">Premium Beauty Products</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-i18n="home">Home</a>
+                    <a href="#products" data-i18n="products">Products</a>
+                    <a href="#about" data-i18n="about">About</a>
+                    <a href="#contact" data-i18n="contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Balasoma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
